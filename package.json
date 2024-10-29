@@ -1,13 +1,9 @@
 {
-  "homepage": "https://github.com/ElijahChinnam/civil-kits",
   "name": "civil-kits",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "gh-pages-clean": "rimraf node_modules/.cache/gh-pages",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
